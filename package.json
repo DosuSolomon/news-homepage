@@ -1,0 +1,23 @@
+{
+  "name": "newshomepage",
+  "version": "1.0.0",
+  "description": "Newshomepage",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "start": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DosuSolomon/newshomepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DosuSolomon/newshomepage/issues"
+  },
+  "homepage": "https://github.com/DosuSolomon/newshomepage#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
